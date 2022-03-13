@@ -1,0 +1,280 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/*  header */
+
+body {
+     background-color: #fff
+}
+
+.container {
+     display: inline-block;
+     width: 1200px;
+     margin-left: calc(50% - 600px);
+}
+     
+header.container {
+     display: flex;
+     justify-content: flex-end;
+     align-items: center;
+     gap: 40px;
+     margin-top: 40px;
+     margin-bottom: 40px;
+     background-color: yellow;
+     
+}
+
+.logo {
+    height: 40px;
+    margin-right: auto;
+    background-color: red;
+}
+
+ nav {
+      display: flex;
+      gap: 30px;
+      background-color: red;
+}
+
+nav > a {
+    line-height: 30px;
+    color: grey;
+    text-transform: capitalize;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+nav > a.active {
+color: pink;
+}
+
+/* ******** */
+/*  content */
+/* ******** */
+
+main.container {
+
+}
+
+/*  first section */
+
+.first-section {
+
+}
+
+.first-section > h6 {
+
+}
+
+.first-section > h1 {
+
+}
+
+.first-section > p {
+
+}
+
+.first-section > a {
+
+}
+
+.first-section > a > span {
+
+}
+
+.first-section > .first-photo {
+
+}
+
+.first-section > .first-photo > .graphic {
+
+}
+
+/*  second section */
+
+.second-section {
+background-color: red;
+}
+
+.second-section > h3 {
+
+}
+
+.second-section > p {
+
+}
+
+/*  third section */
+
+.third-section {
+background-color: yellow;
+}
+
+/*  fourth section */
+
+.fourth-section {
+background-color: red;
+}
+
+.fourth-section > .top {
+
+}
+
+.fourth-section > .top > h3 {
+
+}
+
+.fourth-section > .top > p {
+
+}
+
+.fourth-section > .top > a {
+
+}
+
+.fourth-section > .auction {
+
+}
+
+.fourth-section > .auction > .nft-images {
+
+}
+
+.fourth-section > .auction > .nft-images-bid {
+
+}
+
+.fourth-section > .auction > .nft-images-bid > .purple {
+
+}
+
+.fourth-section > .auction > .nft-images-bid > .purple > .gloop {
+
+}
+
+.fourth-section > .auction > .nft-images-bid > .purple > .top {
+
+}
+
+.fourth-section > .auction > .nft-images-bid > .purple > .purple {
+
+}
+
+.fourth-section > .auction > .nft-images-bid > .purple > img {
+
+}
+
+.fourth-section > .auction > .nft-images-bid > .purple > .eth {
+
+}
+
+.fourth-section > .auction > .nft-images-bid > .purple > .number {
+
+}
+
+.fourth-section > .auction > .nft-images-bid > .purple > .day {
+
+}
+.fourth-section > .auction > .nft-images-bid > .beige {
+
+}
+
+.fourth-section > .auction > .nft-images-bid > .beige > .gloop {
+
+}
+
+.fourth-section > .auction > .nft-images-bid > .beige > .top {
+
+}
+
+.fourth-section > .auction > .nft-images-bid > .beige > .beige {
+
+}
+
+.fourth-section > .auction > .nft-images-bid > .beige > img {
+
+}
+
+.fourth-section > .auction > .nft-images-bid > .beige > .eth {
+
+}
+
+.fourth-section > .auction > .nft-images-bid > .beige > .number {
+
+}
+
+.fourth-section > .auction > .nft-images-bid > .beige > .day {
+
+}
+
+.fourth-section > .auction > .nft-images-bid > .red {
+
+}
+
+.fourth-section > .auction > .nft-images-bid > .red > .gloop {
+
+}
+
+.fourth-section > .auction > .nft-images-bid > .red > .top {
+
+}
+
+.fourth-section > .auction > .nft-images-bid > .red > .red {
+
+}
+
+.fourth-section > .auction > .nft-images-bid > .red > img {
+
+}
+
+.fourth-section > .auction > .nft-images-bid > .red> .eth {
+
+}
+
+.fourth-section > .auction > .nft-images-bid > .red > .number {
+
+}
+
+.fourth-section > .auction > .nft-images-bid > .red > .day {
+
+}
+
+.fourth-section > .auction > .nft-images-bid > .red {
+
+}
+
+.fourth-section > .auction > .nft-images-bid > .red > .gloop {
+
+}
+
+.fourth-section > .auction > .nft-images-bid > .red > .top {
+
+}
+
+.fourth-section > .auction > .nft-images-bid > .red > .red {
+
+}
+
+.fourth-section > .auction > .nft-images-bid > .red > img {
+
+}
+
+.fourth-section > .auction > .nft-images-bid > .red > .eth {
+
+}
+
+.fourth-section > .auction > .nft-images-bid > .red > .number {
+
+}
+
+.fourth-section > .auction > .nft-images-bid > .red > .day {
+
+}
+
+/* fifth section */
+
