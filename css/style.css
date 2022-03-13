@@ -14,8 +14,8 @@ body {
 
 .container {
      display: inline-block;
-     width: 1200px;
-     margin-left: calc(50% - 600px);
+     width: 1400px;
+     margin-left: calc(50% - 700px);
 }
      
 header.container {
@@ -24,21 +24,17 @@ header.container {
      align-items: center;
      gap: 40px;
      margin-top: 40px;
-     margin-bottom: 40px;
-     background-color: yellow;
-     
+     margin-bottom: 40px;    
 }
 
 .logo {
-    height: 40px;
+    height: 35px;
     margin-right: auto;
-    background-color: red;
 }
 
  nav {
       display: flex;
       gap: 30px;
-      background-color: red;
 }
 
 nav > a {
@@ -58,37 +54,42 @@ color: pink;
 /* ******** */
 
 main.container {
-
+height: 200vh;
 }
 
 /*  first section */
 
 .first-section {
-
+display: flex;
+flex-direction: column;
+gap: 40px;
+background-color: red;
 }
 
 .first-section > h6 {
+    font-size: 18px;
+    background-color: aquamarine;
 
 }
 
 .first-section > h1 {
-
+background-color: yellow;
 }
 
 .first-section > p {
-
+background-color: green;
 }
 
 .first-section > a {
-
+background-color: bisque;
 }
 
 .first-section > a > span {
-
+background-color: aqua;
 }
 
 .first-section > .first-photo {
-
+    background-color: blue
 }
 
 .first-section > .first-photo > .graphic {
@@ -98,7 +99,6 @@ main.container {
 /*  second section */
 
 .second-section {
-background-color: red;
 }
 
 .second-section > h3 {
@@ -112,13 +112,11 @@ background-color: red;
 /*  third section */
 
 .third-section {
-background-color: yellow;
 }
 
 /*  fourth section */
 
 .fourth-section {
-background-color: red;
 }
 
 .fourth-section > .top {
