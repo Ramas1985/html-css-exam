@@ -16,11 +16,13 @@ body {
      display: inline-block;
      width: 1400px;
      margin-left: calc(50% - 700px);
+     
 }
      
 header.container {
      display: flex;
      justify-content: flex-end;
+     align-items: center;
      align-items: center;
      gap: 40px;
      margin-top: 40px;
@@ -46,7 +48,7 @@ nav > a {
 }
 
 nav > a.active {
-color: pink;
+     color: #ff33cc;
 }
 
 /* ******** */
@@ -54,88 +56,165 @@ color: pink;
 /* ******** */
 
 main.container {
-height: 200vh;
 }
 
 /*  first section */
 
 .first-section {
-display: flex;
-flex-direction: column;
-gap: 40px;
-background-color: red;
+    display: inline-block;
+    width: 100%;
+    
+  
+   
 }
 
-.first-section > h6 {
-    font-size: 18px;
-    background-color: aquamarine;
+.first-section > .left-column {
+    width: 50%;
+    float: left;
+    padding-top: 100px;
+    
+    
+}
+
+.first-section > .left-column > h6 {
+    width: 100%;
+    color: #ff33cc;
+    font-size: 17px;
+    line-height: 30px;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
 
 }
 
-.first-section > h1 {
-background-color: yellow;
+.first-section > .left-column > h1 {
+    width: 100%;
+    font-size: 90px;
+    line-height: 100px;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
 }
 
-.first-section > p {
-background-color: green;
+.first-section > .left-column > p {
+    width: 80%;
+    font-size: 20px;
+    line-height: 30px;
+    color: gray;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
 }
 
-.first-section > a {
-background-color: bisque;
+.first-section > .left-column > button {
+    margin-left: 100px;
+    margin-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 23px;
+    line-height: 50px;
+    border-radius: 50px;
+    border: solid 5px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #78e4ff, #ff48fa);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px #fff inset;
+}
 }
 
-.first-section > a > span {
-background-color: aqua;
+
+.first-section > .right-column {
 }
 
-.first-section > .first-photo {
-    background-color: blue
-}
-
-.first-section > .first-photo > .graphic {
-
+.first-section > .right-column {
+    width: 50%;
+    float: right;
+    
+    
 }
 
 /*  second section */
 
 .second-section {
+    width: 100%;
+    padding-top: 110px;
+    padding-bottom: 110px;
+    background-image: url(../img/background.svg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    
 }
 
 .second-section > h3 {
-
+   margin-left: 65px;
+   font-size: 40px;
+   line-height: 60px;
+   font-weight: lighter; 
 }
 
 .second-section > p {
+   margin-left: 65px;
+   margin-top: 10px;
+   font-size: 20px;
+   line-height: 30px;
+   font-weight: lighter;  
 
 }
 
 /*  third section */
 
 .third-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 130px;
+    margin-top: 70px;
+    margin-bottom: 70px;   
 }
 
 /*  fourth section */
 
 .fourth-section {
+    background-color: #78e4ff;
 }
 
 .fourth-section > .top {
-
+display: flex;
+flex-direction: column;
+gap: 20px;
 }
 
 .fourth-section > .top > h3 {
-
+margin-top: 30px;
+font-size: 45px;
+line-height: 55px;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .fourth-section > .top > p {
+margin-bottom: 40px;
+font-size: 20px;
+line-height: 25px;
+color: grey;
 
 }
 
-.fourth-section > .top > a {
-
+.fourth-section > .top > p > a {
+color: darkgrey;
 }
 
 .fourth-section > .auction {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+   
+    background-color: #ff33cc;
 
 }
 
