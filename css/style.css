@@ -124,17 +124,11 @@ main.container {
     background-clip: content-box, border-box;
     box-shadow: 2px 1000px 1px #fff inset;
 }
-}
 
-
-.first-section > .right-column {
-}
 
 .first-section > .right-column {
     width: 50%;
     float: right;
-    
-    
 }
 
 /*  second section */
@@ -184,28 +178,28 @@ main.container {
 }
 
 .fourth-section > .top {
-display: flex;
-flex-direction: column;
-gap: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .fourth-section > .top > h3 {
-margin-top: 30px;
-font-size: 45px;
-line-height: 55px;
-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 30px;
+    font-size: 45px;
+    line-height: 55px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .fourth-section > .top > p {
-margin-bottom: 40px;
-font-size: 20px;
-line-height: 25px;
-color: grey;
+    margin-bottom: 40px;
+    font-size: 20px;
+    line-height: 25px;
+    color: grey;
 
 }
 
 .fourth-section > .top > p > a {
-color: darkgrey;
+    color: darkgrey;
 }
 
 .fourth-section > .auction {
