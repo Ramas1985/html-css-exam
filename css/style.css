@@ -55,9 +55,6 @@ nav > a.active {
 /*  content */
 /* ******** */
 
-main.container {
-}
-
 /*  first section */
 
 .first-section {
@@ -125,7 +122,6 @@ main.container {
     box-shadow: 2px 1000px 1px #fff inset;
 }
 
-
 .first-section > .right-column {
     width: 50%;
     float: right;
@@ -141,7 +137,6 @@ main.container {
     background-size: cover;
     background-position: center;
     border-radius: 15px;
-    
 }
 
 .second-section > h3 {
@@ -157,7 +152,6 @@ main.container {
    font-size: 20px;
    line-height: 30px;
    font-weight: lighter;  
-
 }
 
 /*  third section */
@@ -175,6 +169,8 @@ main.container {
 
 .fourth-section {
     background-color: #78e4ff;
+    display: inline-block;
+    width: 100%;
 }
 
 .fourth-section > .top {
@@ -200,152 +196,110 @@ main.container {
 
 .fourth-section > .top > p > a {
     color: darkgrey;
+    margin-top: 50px;
 }
 
 .fourth-section > .auction {
-    width: 100%;
     display: flex;
-    justify-content: space-around;
-    gap: 10px;
-   
-    background-color: #ff33cc;
+    justify-content: space-evenly;
+    
+}
+.column-one > .gloop {
+    float: left;
+    background-color: grey;
 
 }
-
-.fourth-section > .auction > .nft-images {
+.column-one > .top {
+  
+}
+.column-one > .purple {
 
 }
-
-.fourth-section > .auction > .nft-images-bid {
-
-}
-
-.fourth-section > .auction > .nft-images-bid > .purple {
+.column-one > img {
 
 }
-
-.fourth-section > .auction > .nft-images-bid > .purple > .gloop {
-
-}
-
-.fourth-section > .auction > .nft-images-bid > .purple > .top {
+.column-one > .eth {
 
 }
-
-.fourth-section > .auction > .nft-images-bid > .purple > .purple {
-
-}
-
-.fourth-section > .auction > .nft-images-bid > .purple > img {
+.column-one > .number {
 
 }
-
-.fourth-section > .auction > .nft-images-bid > .purple > .eth {
-
-}
-
-.fourth-section > .auction > .nft-images-bid > .purple > .number {
+.column-one > .day {
 
 }
-
-.fourth-section > .auction > .nft-images-bid > .purple > .day {
-
-}
-.fourth-section > .auction > .nft-images-bid > .beige {
-
-}
-
-.fourth-section > .auction > .nft-images-bid > .beige > .gloop {
-
-}
-
-.fourth-section > .auction > .nft-images-bid > .beige > .top {
-
-}
-
-.fourth-section > .auction > .nft-images-bid > .beige > .beige {
-
-}
-
-.fourth-section > .auction > .nft-images-bid > .beige > img {
-
-}
-
-.fourth-section > .auction > .nft-images-bid > .beige > .eth {
-
-}
-
-.fourth-section > .auction > .nft-images-bid > .beige > .number {
-
-}
-
-.fourth-section > .auction > .nft-images-bid > .beige > .day {
-
-}
-
-.fourth-section > .auction > .nft-images-bid > .red {
-
-}
-
-.fourth-section > .auction > .nft-images-bid > .red > .gloop {
-
-}
-
-.fourth-section > .auction > .nft-images-bid > .red > .top {
-
-}
-
-.fourth-section > .auction > .nft-images-bid > .red > .red {
-
-}
-
-.fourth-section > .auction > .nft-images-bid > .red > img {
-
-}
-
-.fourth-section > .auction > .nft-images-bid > .red> .eth {
-
-}
-
-.fourth-section > .auction > .nft-images-bid > .red > .number {
-
-}
-
-.fourth-section > .auction > .nft-images-bid > .red > .day {
-
-}
-
-.fourth-section > .auction > .nft-images-bid > .red {
-
-}
-
-.fourth-section > .auction > .nft-images-bid > .red > .gloop {
-
-}
-
-.fourth-section > .auction > .nft-images-bid > .red > .top {
-
-}
-
-.fourth-section > .auction > .nft-images-bid > .red > .red {
-
-}
-
-.fourth-section > .auction > .nft-images-bid > .red > img {
-
-}
-
-.fourth-section > .auction > .nft-images-bid > .red > .eth {
-
-}
-
-.fourth-section > .auction > .nft-images-bid > .red > .number {
-
-}
-
-.fourth-section > .auction > .nft-images-bid > .red > .day {
-
-}
-
 /* fifth section */
 
+.fifth-section {
+    display: inline-block;
+    width: 100%;
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+    
+}
+
+.fifth-section > .lower-left {
+    width: 50%;
+    float: left;
+    padding-top: 100px;
+}
+
+.fifth-section > .lower-left > h6 {
+    width: 100%;
+    color: #ff33cc;
+    font-size: 17px;
+    line-height: 30px;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
+.fifth-section > .lower-left > h1 {
+    width: 100%;
+    font-size: 90px;
+    line-height: 100px;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
+.fifth-section > .lower-left > p {
+    width: 80%;
+    font-size: 20px;
+    line-height: 30px;
+    color: gray;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
+.fifth-section > .lower-left > button {
+    margin-left: 100px;
+    margin-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 23px;
+    line-height: 50px;
+    border-radius: 50px;
+    border: solid 5px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #78e4ff, #ff48fa);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px #fff inset;
+}
+
+
+.fifth-section > .lower-right {
+    width: 50%;
+    float: right;
+    padding-left: 250px;
+    padding-top: 110px;
+}
+.fifth-section > .lower-right > img {
+   zoom: 125%;
+}
+
+/* sixth section */
