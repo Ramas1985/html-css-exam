@@ -16,11 +16,11 @@ Design: [Sign up](https://ramas1985.github.io)
 ## Project features
 
 - Github pages
-- multi-page (sign up, sign in, forgot password)
-- desktop only
-- absolute center
+- gradient
+- desktop only (yet)
+- fontawesome
 - css blur
-- form
+- 
 
 ## Authors
 
