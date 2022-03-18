@@ -591,18 +591,16 @@ nav > a.active {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
+    gap: 60px;
     padding-top: 70px;
-    background-color: red;
 }
 
 .sixth-section > .right-column {
     width: 300px;
-  
 }
 
 .sixth-section > .right-column > img {
-    height: 35px;
-    padding-right: 110px;
+    
 }
 
 .sixth-section > .right-column > h3 {
@@ -620,17 +618,12 @@ nav > a.active {
     color: lightgray;
 }
 
-.bottom {
-    background-color: #ff33cc;
-}
-
 .sixth-section > .about {
     display: flex;
     flex-direction: column;
-    
     gap: 10px;
-    background-color: blue;
 }
+
 .sixth-section > .about > h3 {
     color: grey;
     font-weight: lighter;
@@ -653,22 +646,60 @@ nav > a.active {
     gap: 10px;
 }
 
+.sixth-section > .social-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sixth-section > .social-links > h3 {
+    color: grey;
+    font-weight: lighter;
+}
+
 .sixth-section > .contact > h3 {
     color: grey;
     font-weight: lighter;
 }
-.sixth-section > .social {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    gap: 10px;
-    background-color: green;
-    
+
+
+.about a {
+    color: lightgrey;
 }
 
-.sixth-section > .social > h3 {
-    color: grey;
-    font-weight: lighter;
-    justify-content: flex-end;
+.nft a {
+    color: lightgrey;
 }
 
+.contact a {
+    color: lightgrey;
+}
+
+.social-links a {
+    color: lightgrey;
+}
+
+/*  senventh-section */
+
+.seventh-section {
+    display: inline;
+   
+}
+
+.seventh-section > footer {
+    font-size: 18px;
+    line-height: 20px;
+    color: lightgray;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    float: left;
+}
+
+.seventh-section > p {
+    font-size: 18px;
+    line-height: 20px;
+    color: lightgray;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    float: right;
+}
