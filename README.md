@@ -11,7 +11,7 @@ This project is for educational porpuses only. Pull request are welcome. Thank y
 
 Site published at https: https://github.com/html-css-exam
 
-Design: [Sign up](https://ramas1985.github.io)
+Design: [html-css](https://ramas1985.github.io/html-css-exam/)
 
 ## Project features
 
