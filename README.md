@@ -19,8 +19,8 @@ Design: [html-css](https://ramas1985.github.io/html-css-exam/)
 - gradient
 - desktop only (yet)
 - fontawesome
-- css blur
-- 
+- svg
+- favicon
 
 ## Authors
 
